@@ -1,24 +1,61 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,700;1,500&display=swap');
-.navbar {
-    width: auto;
-    height: 50px;
-    padding: 5px 15px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-radius: 30px;
-    background-color: rgb(212, 212, 212);
-    list-style: none;
-    font-size: 17px;
-    font-family:  'Rubik', sans-serif;
-    font-weight: 500;
+@media (min-width: 991px) {
+    .navbar-nav {
+        width: 500px;
+        margin: 0 auto;
+        height: 50px;
+        padding: 10px 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 30px;
+        background-color: rgba(212, 212, 212, 0.76);
+        list-style: none;
+        font-size: 20px;
+        font-family:  'Rubik', sans-serif;
+        font-weight: 500;
+    }
+    .navbar-nav li {    
+        padding: 10px 20px;
+        color: #494949;
+    }
+    .nav-link {
+        border-radius: 30px;
+    }
+    .active {
+        background-color: white;
+        color: rgb(32, 32, 32);
+        transition: all 0.2s linear 0.5s;
+    }
 }
-.navbar li {    
-    padding: 6px 15px;
-    color: #494949;
+@media (max-width: 991px) {
+    #navbarSupportedContent {
+        margin: 0 auto;
+    }
+    #navbarSupportedContent .navbar-nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #navbarSupportedContent .navbar-nav .nav-link {
+        color: #685c66;
+        text-shadow: 0px 1px 3px #aa9daa;
+        font-size: 20px;
+    }
+    
+    .navbar-toggler:hover {
+        box-shadow: 0px 0px 2px 4px #aa9daa;
+    }
+    .navbar-toggler:focus {
+        color: #aa9daa;
+        border: 1px solid #aa9daa ;
+    }
 }
-.active {
-    background-color: white;
-    border-radius: 30px;
-    color: black;
+#navbarSupportedContent .navbar-nav .active{
+    color: #6d4a67;
+}
+#navbarSupportedContent .navbar-nav .nav-link:hover {
+    color: #534351;
+    scale: 1.1;
 }
