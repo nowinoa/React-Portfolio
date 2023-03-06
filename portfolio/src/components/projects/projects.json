@@ -1,0 +1,44 @@
+[
+    {
+      "id": 1,
+      "title": "Password Generator",
+      "page": "https://nowinoa.github.io/Password-Generator/",
+      "repository": "https://github.com/nowinoa/Password-Generator",
+      "image": "../public/assets/password-generator.png"
+    },
+    {
+      "id": 2,
+      "title": "Day Task Tracker",
+      "page": "https://nowinoa.github.io/Day-Tasker/",
+      "repository": "https://github.com/nowinoa/Day-Tasker",
+      "image": "../../../public/assets/day-tracker.png"
+    },
+    {
+      "id": 3,
+      "title": "JavaScript Quiz",
+      "page": "https://nowinoa.github.io/JavaScript-Quiz/",
+      "repository": "https://github.com/nowinoa/JavaScript-Quiz",
+      "image": "../../../public/assets/javascript-quiz.png"
+    },
+    {
+      "id": 4,
+      "title": "Bootstrap Portfolio",
+      "page": "https://nowinoa.github.io/bootstrap-portfolio/",
+      "repository": "https://github.com/nowinoa/bootstrap-portfolio",
+      "image": "../../../public/assets/bootstrap-portfolio.png"
+    },
+    {
+      "id": 5,
+      "title": "Weather App",
+      "page": "https://nowinoa.github.io/Weather-App/",
+      "repository": "https://github.com/nowinoa/Weather-App",
+      "image": "../../../public/assets/wheather-app.png"
+    },
+    {
+      "id": 6,
+      "title": "Crypto Traker",
+      "page": "https://alanabf.github.io/Project-1-Crypto-Tracker/",
+      "repository": "https://github.com/nowinoa/Crypto-Traker",
+      "image": "../../../public/assets/crypto-tracker.png"
+    }
+]  
