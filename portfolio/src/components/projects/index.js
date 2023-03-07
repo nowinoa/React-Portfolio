@@ -2,6 +2,7 @@ import "./style.css";
 import ProjectCard from "../project-card";
 import projectList from "./projects.json";
 
+
 function Projects() {
   return (
     <div className="projects">
@@ -20,7 +21,7 @@ function Projects() {
               title={p.title}
               image={p.image}
               page={p.page}
-              repository={p.repository}
+              bg={p.bg}
             />
           );
         })}
@@ -28,4 +29,5 @@ function Projects() {
     </div>
   );
 }
+
 export default Projects;

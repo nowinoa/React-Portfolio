@@ -4,41 +4,47 @@
       "title": "Password Generator",
       "page": "https://nowinoa.github.io/Password-Generator/",
       "repository": "https://github.com/nowinoa/Password-Generator",
-      "image": "https://cdn.britannica.com/32/185632-138-B842D4F6/formation-sand-quartz-role-processes-weathering-grains.jpg?w=800&h=450&c=crop"
+      "image": "https://drive.google.com/uc?export=view&id=16Qw8STzQF7JKi5jQBv2y6wzelj2y5wdu",
+      "bg": 1
     },
     {
       "id": 2,
       "title": "Day Task Tracker",
       "page": "https://nowinoa.github.io/Day-Tasker/",
       "repository": "https://github.com/nowinoa/Day-Tasker",
-      "image": "../../../public/assets/day-tracker.png"
+      "image": "https://drive.google.com/uc?export=view&id=13ddZoa4ADUsYC873l4V9676cCF97C_PM",
+      "bg": 3
     },
     {
       "id": 3,
       "title": "JavaScript Quiz",
       "page": "https://nowinoa.github.io/JavaScript-Quiz/",
       "repository": "https://github.com/nowinoa/JavaScript-Quiz",
-      "image": "../../../public/assets/javascript-quiz.png"
+      "image": "https://drive.google.com/uc?export=view&id=1pEDKRt7Ip6UoHgA3Hpe2os2kIW_xwYtp",
+      "bg": 2
     },
     {
       "id": 4,
       "title": "Bootstrap Portfolio",
       "page": "https://nowinoa.github.io/bootstrap-portfolio/",
       "repository": "https://github.com/nowinoa/bootstrap-portfolio",
-      "image": "../../../public/assets/bootstrap-portfolio.png"
+      "image": "https://drive.google.com/uc?export=view&id=1dU8bbxYDD50llNR33U3ion9LEoDTnOo7",
+      "bg": 1
     },
     {
       "id": 5,
       "title": "Weather App",
       "page": "https://nowinoa.github.io/Weather-App/",
       "repository": "https://github.com/nowinoa/Weather-App",
-      "image": "../../../public/assets/wheather-app.png"
+      "image": "https://drive.google.com/uc?export=view&id=10eCVbZRvU0mgMm3KKDaDCKBxaH--E0Qb",
+      "bg": 2
     },
     {
       "id": 6,
       "title": "Crypto Traker",
       "page": "https://alanabf.github.io/Project-1-Crypto-Tracker/",
       "repository": "https://github.com/nowinoa/Crypto-Traker",
-      "image": "../../../public/assets/crypto-tracker.png"
+      "image": "https://drive.google.com/uc?export=view&id=1rJ002nwKxCNuriaXmp8JBT9edAiEyNjp",
+      "bg": 3
     }
 ]  

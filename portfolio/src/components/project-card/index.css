@@ -1,6 +1,6 @@
 .project-card {
     color: #fff;
-    height: 500px;
+    height: 550px;
     background-image: var(--background-waves);
     border-radius: 20px;
     padding: 20px;
@@ -11,9 +11,9 @@
     align-items: center;
 }
 .project-card img {
-    width: 95%;
+    width: 400px;
     border: 15px solid var(--background);
-    height: 300px;
+    height: 350px;
     border-radius: 20px;
 }
 .project-buttons {
