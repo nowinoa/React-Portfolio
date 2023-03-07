@@ -17,8 +17,8 @@ function App() {
       {/* On this app we are using react router dom */}
         <Routes>
           <Route exact path="/" element={ <Home />}></Route>
-          <Route path='/projects' element={<Projects />} />
-          <Route path='/contact' element={<Contact />} />
+          <Route exact path='projects' element={<Projects />} />
+          <Route exact path='contact' element={<Contact />} />
         </Routes>
     </div>
     </Router>

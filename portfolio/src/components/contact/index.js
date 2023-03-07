@@ -5,7 +5,7 @@ function Contact () {
     return(
         <div className="contact">
             <div className=" box contact-form">
-                Contact Form
+                <a>Contact Form</a>
             </div>
             <div className=" box cv">
                 CV

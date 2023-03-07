@@ -2,16 +2,37 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-    padding: 30px 20px;
+    padding: 30px 40px;
 }
 .contact-form {
     grid-column: 1 / span 2;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--primary);
+    background-image: var(--background-waves);
+}
+.contact-form a {
+    font-family: 'Bungee Shade', cursive;
+    font-size: 40px;
+    cursor: pointer;
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: 20px; 
+}
+.contact-form a:hover {
+    box-shadow: 1px 1px 3px 2px #d6d6d6;
+    transition: box-shadow .2s ease-out 0s;
 }
 .cv {
     grid-column: 3 / 4;
 }
 .c-github {
     grid-column: 1 / 2;
+    height: 180px;
 }
 .email {
     grid-column: 2 / 3;
