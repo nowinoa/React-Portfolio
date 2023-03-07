@@ -3,10 +3,11 @@ import ProjectCard from "../project-card";
 import projectList from "./projects.json";
 
 function Projects() {
+  const phone_dev = require(`../Home/img/58982.jpg`);
   return (
     <div className="projects">
       <div className="about-projects">
-      <img src="../58982.jpg" alt="Ainhoa Prada Frontend Developer" />
+      <img src={phone_dev} alt="Ainhoa Prada Frontend Developer" />
         <p>
           Welcome to my <span>projects</span> page! Here you will find a showcase of my work,
           created using various technologies such as JavaScript, React, CSS,

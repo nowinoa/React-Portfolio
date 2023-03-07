@@ -1,6 +1,7 @@
 import "./index.css";
 
 function Contact () {
+    
     return(
         <div className="contact">
             <div className=" box contact-form">

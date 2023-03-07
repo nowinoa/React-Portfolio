@@ -1,11 +1,14 @@
 import './index.css';
-import React from 'react'
+import React  from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 function HomePage() {
+    const memoji = require('./img/63256.jpg');
+    const memoji_desktop = require(`./img/58982.jpg`);
+    const phone_dev = require(`./img/phone-developer.png`);
     return (
         <div className='home-page'>
             <div className='box about'>
-                <img src="../63256.jpg" alt="Ainhoa Frontend Developer" />
+                <img src={memoji} alt="Ainhoa Frontend Developer" />
                 <div>
                 Welcome to my portfolio, my name is <span className='name'>Ainhoa</span>, and I am a skilled frontend developer hailing from Spain, currently based in the vibrant city of London, UK. My passion lies in the creation and design of cutting-edge websites that are visually stunning, easy to navigate, and highly functional.
                 </div>
@@ -15,7 +18,7 @@ function HomePage() {
             </div>
             <div className='box home-projects'>
                 <button>Proyects</button>
-                <img src="../phone-developer.png" alt="projects frontend development"/>
+                <img src={phone_dev} alt="projects frontend development"/>
             </div>
             <div className="box tools">
                 <button><h2 className="tools-title">Tools</h2></button>
@@ -25,7 +28,7 @@ function HomePage() {
             </div>
             <div className="box toggle">
                 <button>Toogle here!</button>
-                <img src="../58982.jpg" alt="Memoji Ainhoa Frontend Developer"/>
+                <img src={memoji_desktop} alt="Memoji Ainhoa Frontend Developer"/>
             </div>
             <div className="box about-contact">
                 <p>If you have any questions or would like to discuss my projects further, why wait? Let's connect today and explore any potential collaborations or opportunities together</p>
