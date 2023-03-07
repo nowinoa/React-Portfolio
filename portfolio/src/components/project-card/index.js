@@ -1,6 +1,5 @@
 import "./index.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { Link } from "react-router-dom";
 
 function backgroundWaves(bg) {
     if(bg === 1) return 'var(--background-waves)';
