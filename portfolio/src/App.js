@@ -15,9 +15,9 @@ function App() {
       <Header />
         {/* On this app we are using react router dom */}
         <Routes>
-          <Route exact path="/" element={<Home />}></Route>
-          <Route exact path="projects" element={<Projects />} />
-          <Route exact path="contact" element={<Contact />} />
+          <Route exact path="/" element={<Home />} />
+          <Route exact path="/projects" element={<Projects />} />
+          <Route exact path="/contact" element={<Contact />} />
         </Routes>
       </BrowserRouter>
   );

@@ -3,7 +3,6 @@ import ContactModal from "../modal";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function Contact() {
-    const memoji = require('../Home/img/63256.jpg')
   return (
     <div className="contact">
       <div className=" box contact-form">
