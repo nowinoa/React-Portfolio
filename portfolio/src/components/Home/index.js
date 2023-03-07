@@ -27,7 +27,7 @@ function HomePage() {
                 <button>Toogle here!</button>
                 <img src="../58982.jpg" alt="Memoji Ainhoa Frontend Developer"/>
             </div>
-            <div className="box contact">
+            <div className="box about-contact">
                 <p>If you have any questions or would like to discuss my projects further, why wait? Let's connect today and explore any potential collaborations or opportunities together</p>
                 <button>contact</button>
             </div>

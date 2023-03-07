@@ -1,0 +1,21 @@
+.contact {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 30px 20px;
+}
+.contact-form {
+    grid-column: 1 / span 2;
+}
+.cv {
+    grid-column: 3 / 4;
+}
+.c-github {
+    grid-column: 1 / 2;
+}
+.email {
+    grid-column: 2 / 3;
+}
+.c-linkedin {
+    grid-column: 3 / 4;
+}
