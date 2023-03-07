@@ -1,0 +1,17 @@
+.btn-flat {
+    color: var(--primary);
+    font-family: 'Bungee Shade', cursive;
+    font-size: 40px;
+    cursor: pointer;
+    background-color: #fff !important;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: 20px; 
+}
+.btn-flat:hover {
+    color: var(--primary);
+    background-color: #fff;
+    box-shadow: 1px 1px 3px 2px #d6d6d6;
+    transition: box-shadow .2s ease-out 0s;
+}
