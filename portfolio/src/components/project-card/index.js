@@ -1,4 +1,6 @@
 import "./index.css";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { Link } from "react-router-dom";
 
 function backgroundWaves(bg) {
     if(bg === 1) return 'var(--background-waves)';
@@ -16,8 +18,20 @@ function ProjectCard (props) {
             <h3>{props.title}</h3>
             <img src={props.image} alt={props.title} />
             <div className="project-buttons">
-                <button className="p pages">Page</button>
-                <button className="p repo">Repository</button>
+                <a
+                    className="p pages"
+                    target= "_blank" 
+                    rel="noopener noreferrer"
+                    href={props.page}>
+                    <FontAwesomeIcon icon="fa-solid fa-globe" className="page-icon" style={{width: 30, height: 30, color: "#59ecb4"}}/>
+                </a>
+                <a
+                    className="p repo"
+                    target= "_blank" 
+                    rel="noopener noreferrer"
+                    href={props.repository}>
+                <FontAwesomeIcon icon="fa-brands fa-github" className="repo-icon" style={{width: 30, height: 30, color: "var(--primary)"}}/>
+                </a>
             </div>
         </div>
         

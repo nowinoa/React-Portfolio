@@ -5,8 +5,9 @@ import Projects from './components/projects';
 import Contact from './components/contact';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import {faGithub, faLinkedin} from '@fortawesome/free-brands-svg-icons';
+import {faGlobe} from '@fortawesome/free-solid-svg-icons';
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
-library.add(faGithub, faLinkedin)
+library.add(faGithub, faLinkedin, faGlobe)
 
 function App() {
   return (
