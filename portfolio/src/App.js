@@ -15,7 +15,7 @@ function App() {
       <Header />
         {/* On this app we are using react router dom */}
         <Routes>
-          <Route exact path="/" element={<Home />} />
+          <Route exact path="/React-Portfolio" element={<Home />} />
           <Route exact path="/projects" element={<Projects />} />
           <Route exact path="/contact" element={<Contact />} />
         </Routes>

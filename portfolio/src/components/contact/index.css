@@ -6,22 +6,38 @@
 }
 .contact-form {
     grid-column: 1 / span 2;
-    height: 180px;
     display: flex;
     justify-content: center;
     align-items: center;
     background-image: var(--background-waves);
 }
 .cv {
+    height: 250px;
     grid-column: 3 / 4;
     font-size: 20px;
-    background-color: var(--terciary);
+    background-image: var(--background-waves2);
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    position: relative;
     color: #000;
 }
 .cv img {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border-radius: 20px;
+    border-left: 10px solid #fff;
+}
+.btn-cv {
+    cursor: pointer;
+   background: #fff;
+   position: absolute;
+   bottom: 10px;
+   left: 10px;
+   border: 1px solid transparent;
+   border-radius: 50px;
+   padding: 8px 15px;
+   font-size: 20px;
 }
 .c-github {
     background-image: var(--background-waves2);
@@ -53,7 +69,7 @@
     justify-content: center;
     align-items: center;
 }
-.c-github .github-icon:hover, .c-linkedin .linkedin-icon:hover, .email .email-icon:hover{
+.c-github .github-icon:hover, .c-linkedin .linkedin-icon:hover, .email .email-icon:hover, .btn-cv:hover{
     box-shadow: 1px 1px 3px 2px #d6d6d6;
     transition: box-shadow .2s ease-out 0s;
 }
@@ -62,4 +78,11 @@
     color: #444;
     padding: 7px;
     border-radius: 50%;
+}
+@media(max-width: 589px) {
+    .contact {
+        display: flex;
+        flex-direction: column;
+    }
+    
 }

@@ -1,4 +1,7 @@
 .btn-flat {
+    width: 75%;
+    height: 60%;
+    margin: 0 auto;
     color: var(--primary);
     font-family: 'Bungee Shade', cursive;
     font-size: 40px;
@@ -14,4 +17,16 @@
     background-color: #fff;
     box-shadow: 1px 1px 3px 2px #d6d6d6;
     transition: box-shadow .2s ease-out 0s;
+}
+@media(max-width: 589px) {
+    .btn-flat {
+        width: 88%;
+        font-size: 29px !important;
+        display: flex;
+        justify-content: center;
+    }
+    .box {
+        height: 250px;
+    }
+    
 }

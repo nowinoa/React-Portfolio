@@ -3,6 +3,7 @@ import ContactModal from "../modal";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function Contact() {
+  const memoji_desktop = require('../Home/img/63256.jpg')
   return (
     <div className="contact">
       <div className=" box contact-form">
@@ -10,9 +11,8 @@ function Contact() {
         <ContactModal />
       </div>
       <div className=" box cv">
-        <p>You can also have a lot to my CV! 
-        Click the button!</p>
-        <button>Go to CV</button>
+        <img src={memoji_desktop} alt="Ainhoa Prada Developer" />
+        <button className="btn-cv">Curriculum PDF</button>
       </div>
       <div className=" box c-github">
         <FontAwesomeIcon
