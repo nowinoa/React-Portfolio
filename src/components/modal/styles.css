@@ -18,6 +18,9 @@
     box-shadow: 1px 1px 3px 2px #d6d6d6;
     transition: box-shadow .2s ease-out 0s;
 }
+.modal-content {
+    height: 500px !important;
+}
 @media(max-width: 589px) {
     .btn-flat {
         width: 88%;
