@@ -1,5 +1,4 @@
 import "./App.css";
-
 import Projects from "./components/projects";
 import {HomePage, Contact, Header} from './components'
 import { library } from "@fortawesome/fontawesome-svg-core";

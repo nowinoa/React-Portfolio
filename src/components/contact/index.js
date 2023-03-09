@@ -3,12 +3,31 @@ import ContactModal from "../modal";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function Contact() {
-  const memoji_desktop = require('../Home/img/63256.jpg')
+  const memoji_desktop = require("../Home/img/63256.jpg");
+  const body = (
+    <form>
+      <label>Name:</label>
+      <input className="form-name" type="text" name="name" required />
+      <label>Email:</label>
+      <input className="form-name" type="text" name="name" required />
+      <label>Phone number (optional):</label>
+      <input className="form-name" type="text" name="name" />
+      <textarea
+        className="message"
+        required
+        placeholder="Write your message here!"
+      />
+      <input className="submit-btn" type="submit" value="Submit" />
+    </form>
+  );
   return (
     <div className="contact">
       <div className=" box contact-form">
         {/* <button id="modal-opener">Contact Form</button>  */}
-        <ContactModal />
+        <ContactModal
+         title= 'Contact Form'
+          body={body}
+        />
       </div>
       <div className=" box cv">
         <img src={memoji_desktop} alt="Ainhoa Prada Developer" />

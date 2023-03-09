@@ -1,10 +1,12 @@
 import './index.css';
 import React  from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import ContactModal from '../modal';
 function HomePage() {
     const memoji = require('./img/63256.jpg');
     const memoji_desktop = require(`./img/58982.jpg`);
     const phone_dev = require(`./img/phone-developer.png`);
+    const body = <h3>Here the tools I always use!</h3>
     return (
         <div className='home-page'>
             <div className='box about'>
@@ -21,7 +23,10 @@ function HomePage() {
                 <img src={phone_dev} alt="projects frontend development"/>
             </div>
             <div className="box tools">
-                <button><h2 className="tools-title">Tools</h2></button>
+                    <ContactModal
+                        title='tools'
+                        body={body}
+                    />
             </div>
             <div className="box linkedin">
                 <FontAwesomeIcon icon="fa-brands fa-linkedin" className='linkedin-icon' style={{color: '#77ffcb', width: 100, height: 100}}/>

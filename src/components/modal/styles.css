@@ -1,6 +1,5 @@
 .btn-flat {
     width: 75%;
-    height: 60%;
     margin: 0 auto;
     color: var(--primary);
     font-family: 'Bungee Shade', cursive;
@@ -11,6 +10,9 @@
     text-align: center;
     border: 1px solid transparent;
     border-radius: 20px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .btn-flat:hover {
     color: var(--primary);
