@@ -58,8 +58,10 @@
     padding-left: 100px;
     padding-top: 100px;
 }
-.home-projects button, .toggle button, .about-contact button{
+.home-projects .button, .toggle button, .about-contact .button{
    cursor: pointer;
+   color: #444;
+   text-decoration: none;
    background: #fff;
    position: absolute;
    bottom: 10px;
@@ -69,7 +71,7 @@
    padding: 8px 15px;
    font-size: 20px;
 }
-.home-projects button:hover, .toggle button:hover, .tools button:hover, .linkedin .linkedin-icon:hover, .github .github-icon:hover, .about-contact button:hover {
+.home-projects button:hover, .toggle button:hover, .about-contact .button:hover {
     box-shadow: 1px 1px 3px 2px #d6d6d6;
     transition: box-shadow .2s ease-out 0s;
 }

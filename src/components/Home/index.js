@@ -2,6 +2,7 @@ import './index.css';
 import React  from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import ContactModal from '../modal';
+import { Link } from 'react-router-dom';
 function HomePage() {
     const memoji = require('./img/63256.jpg');
     const memoji_desktop = require(`./img/58982.jpg`);
@@ -19,7 +20,11 @@ function HomePage() {
                 <h2 className="city">London</h2>
             </div>
             <div className='box home-projects'>
-                <button>Proyects</button>
+            <Link
+                    to="/React-Portfolio/projects"
+                    className='button'>
+                    Projects
+                </Link>
                 <img src={phone_dev} alt="projects frontend development"/>
             </div>
             <div className="box tools">
@@ -29,7 +34,14 @@ function HomePage() {
                     />
             </div>
             <div className="box linkedin">
-                <FontAwesomeIcon icon="fa-brands fa-linkedin" className='linkedin-icon' style={{color: '#77ffcb', width: 100, height: 100}}/>
+            <a
+                    className="p pages"
+                    target= "_blank" 
+                    rel="noopener noreferrer"
+                    href='https://www.linkedin.com/in/ainhoa-prada-498913259/'>
+                   <FontAwesomeIcon icon="fa-brands fa-linkedin" className='linkedin-icon' style={{color: '#77ffcb', width: 100, height: 100}}/>
+                </a>
+                
             </div>
             <div className="box toggle">
                 <button>Toogle here!</button>
@@ -37,10 +49,20 @@ function HomePage() {
             </div>
             <div className="box about-contact">
                 <p>If you have any questions or would like to discuss my projects further, why wait? Let's connect today and explore any potential collaborations or opportunities together</p>
-                <button>contact</button>
+                <Link
+                    to="/React-Portfolio/contact"
+                    className='button'>
+                    Contact
+                </Link>
             </div>
             <div className="box github">
-                <FontAwesomeIcon icon="fa-brands fa-github" className='github-icon' style={{ width: 100, height: 100}}/>
+            <a
+                    className="p pages"
+                    target= "_blank" 
+                    rel="noopener noreferrer"
+                    href='https://github.com/nowinoa'>
+                   <FontAwesomeIcon icon="fa-brands fa-github" className='github-icon' style={{ width: 100, height: 100}}/>
+                </a>
             </div>
             
          
