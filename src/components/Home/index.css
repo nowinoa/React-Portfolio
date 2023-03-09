@@ -103,6 +103,10 @@
     justify-content: center;
     align-items: center;
 }
+.linkedin-icon, .github-icon {
+    width: 100px;
+    height: 100px;
+}
 
 .toggle {
     grid-column: 3 / 4;
@@ -217,10 +221,16 @@
     .linkedin {
         grid-column: 1 / span 2;
         grid-row: 5 / 6;
+        height: auto;
+    }
+    .linkedin-icon, .github-icon {
+        width: 65px;
+        height: 65px;
     }
     .github {
         grid-column: 3 / span 2;
         grid-row: 5 / 6;
+        height: auto;
     }
     .tools {
         grid-column: 1 / 5;
@@ -229,7 +239,7 @@
     .about-contact {
         grid-column: 1 / 5;
         grid-row: 7 / 8;
-        height: 300px;
+        height: 350px;
         display: flex;
         justify-content: center;
         align-items: center;
