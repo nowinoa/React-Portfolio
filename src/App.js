@@ -1,8 +1,7 @@
 import "./App.css";
-import Header from "./components/header";
-import Home from "./components/Home";
+
 import Projects from "./components/projects";
-import Contact from "./components/contact";
+import {HomePage, Contact, Header} from './components'
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faGlobe, faEnvelope } from "@fortawesome/free-solid-svg-icons";
@@ -15,9 +14,9 @@ function App() {
       <Header />
         {/* On this app we are using react router dom */}
         <Routes>
-          <Route exact path="/React-Portfolio" element={<Home />} />
-          <Route exact path="/projects" element={<Projects />} />
-          <Route exact path="/contact" element={<Contact />} />
+          <Route exact path="/React-Portfolio" element={<HomePage />} />
+          <Route exact path="/React-Portfolio/projects" element={<Projects />} />
+          <Route exact path="/React-Portfolio/contact" element={<Contact />} />
         </Routes>
       </BrowserRouter>
   );

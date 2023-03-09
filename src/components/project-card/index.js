@@ -11,24 +11,24 @@ function colorCard(bg) {
     else return'var(--primary)';
 }
 
-function ProjectCard (props) {
+function ProjectCard ({title, bg, image, page, repository}) {
     return(
-        <div className="project-card" id="project" style={{background: backgroundWaves(props.bg), color: colorCard(props.bg)}}>
-            <h3>{props.title}</h3>
-            <img src={props.image} alt={props.title} />
+        <div className="project-card" id="project" style={{background: backgroundWaves(bg), color: colorCard(bg)}}>
+            <h3>{title}</h3>
+            <img src={image} alt={title} />
             <div className="project-buttons">
                 <a
                     className="p pages"
                     target= "_blank" 
                     rel="noopener noreferrer"
-                    href={props.page}>
+                    href={page}>
                     <FontAwesomeIcon icon="fa-solid fa-globe" className="page-icon" style={{width: 30, height: 30, color: "#59ecb4"}}/>
                 </a>
                 <a
                     className="p repo"
                     target= "_blank" 
                     rel="noopener noreferrer"
-                    href={props.repository}>
+                    href={repository}>
                 <FontAwesomeIcon icon="fa-brands fa-github" className="repo-icon" style={{width: 30, height: 30, color: "var(--primary)"}}/>
                 </a>
             </div>
