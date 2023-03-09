@@ -16,7 +16,7 @@ function Navbar() {
       </li>
       <li className="nav-item">
       <NavLink 
-          to="/React-Portfolio/projects"
+          to="/projects"
           end
           className={({isActive}) => 
             isActive ? 'nav-link active' : 'nav-link'} 
@@ -24,7 +24,7 @@ function Navbar() {
       </li>
       <li className="nav-item">
       <NavLink 
-          to="/React-Portfolio/contact"
+          to="/contact"
           end
           className={({isActive}) => 
             isActive ? 'nav-link active' : 'nav-link'} 

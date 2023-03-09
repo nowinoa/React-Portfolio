@@ -13,12 +13,20 @@ function App() {
       <Header />
         {/* On this app we are using react router dom */}
         <Routes>
-          <Route exact path="/React-Portfolio" element={<HomePage />} />
-          <Route exact path="/React-Portfolio/projects" element={<Projects />} />
-          <Route exact path="/React-Portfolio/contact" element={<Contact />} />
+          <Route exact path="/React-Portfolio/" element={<HomePage />} />
+          <Route  path="/projects" element={<Projects />} />
+          <Route  path="/contact" element={<Contact />} />
         </Routes>
       </BrowserRouter>
   );
 }
 
 export default App;
+
+//about projects needs bottom padding
+//contact links needs to be added
+//email alert
+//modals needs to be finished
+//pdf curriculum
+//try to add animations in a future xd
+//projects btn doesnt work on phone devices
