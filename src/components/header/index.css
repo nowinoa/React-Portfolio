@@ -24,3 +24,8 @@
         font-size: 40px;
     }
 }
+@media (max-width:991px) {
+    .active {
+        text-decoration: underline;
+    }
+}

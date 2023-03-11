@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+![this was a badge](https://img.shields.io/badge/License-MIT-blue.svg)
+# Ainhoa Prada Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
+My Portfolio is a web application that showcases my projects and skills. I built this project to create a centralized place where I can display my projects, my skills, and my contact information in a visually appealing and easily accessible format. My motivation for creating this portfolio was to showcase my work to potential employers or clients.
 
-## Available Scripts
+This project solves the problem of having to navigate through multiple websites or repositories to view my projects and skills. With My Portfolio, all of the information is organized in one location, making it easy for others to view and evaluate my work.
 
-In the project directory, you can run:
+Through the development of this project, I learned how to use React, JavaScript, and various npm modules to create a dynamic and responsive web application.
 
-### `npm start`
+<img src="./public/img-app.png" alt="image of this application">
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Table of Contents
+* [Tools](#tools)
+* [Live-Demo](#live-demo)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Credits](#credits)
+* [License](#license)
+* [Questions](#questions)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Tools
+<img src="https://github.com/get-icon/geticon/raw/master/icons/es6.svg" alt="ECMAScript 6" width="30px" height="30px">  <img src="https://github.com/get-icon/geticon/raw/master/icons/javascript.svg" alt="JavaScript" width="30px" height="30px">  <img src="https://github.com/get-icon/geticon/raw/master/icons/html-5.svg" alt="HTML5" width="30px" height="30px">  <img src="https://github.com/get-icon/geticon/raw/master/icons/css-3.svg" alt="CSS3" width="30px" height="30px">  <img src="https://github.com/get-icon/geticon/raw/master/icons/react.svg" alt="React" width="30px" height="30px">  <img src="https://github.com/get-icon/geticon/raw/master/icons/bootstrap.svg" alt="Bootstrap" width="30px" height="30px">  <img src="https://github.com/get-icon/geticon/raw/master/icons/npm.svg" alt="npm" width="30px" height="30px">  <img src="https://github.com/get-icon/geticon/raw/master/icons/git-icon.svg" alt="Git" width="30px" height="30px">
 
-### `npm test`
+## Live Demo
+:point_right:  https://github.com/nowinoa/Ainhoa_Prada_Portfolio  :point_left:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation
+To install My Portfolio, follow these steps:
 
-### `npm run build`
+1. Clone this repository onto your local machine.
+2. Navigate to the project directory.
+3. Install the necessary dependencies by running the command npm install.
+4. Start the development server by running the command npm start.
+5. Open your web browser and navigate to http://localhost:3000 to view the application.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Usage
+Upon opening the application, you will be directed to the home page. The home page displays my location, tools I use, links to other pages, and a togglable icon that changes image when clicked.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The projects page displays my latest projects, each of which has a button to the uploaded page and another to the code on GitHub.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The contact page allows users to contact me by filling out a contact form. There is also an email option if you prefer to save the contact information for later. Additionally, you can navigate to my LinkedIn and GitHub profiles, and download my PDF curriculum by clicking the button.
+<img src="./public/contact-form.png" alt="image of this application">
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Credits
+Created by <a href="https://github.com/nowinoa">Ainhoa Prada</a>.
+The following third-party assets were used:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* React
+* Bootstrap
+* Font Awesome
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## License
+This project is under MIT license
+        
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Questions
+For any questions or issues feel free to contact me at: apt.code14@gmail.com
 
-## Learn More
+To explore more about my projects visit my profile :point_right: <a href="https://github.com/nowinoa">:computer:</a>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+© 2023 Ainhoa Prada. Confidential and Proprietary. All Rights Reserved.

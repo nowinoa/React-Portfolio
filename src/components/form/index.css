@@ -1,0 +1,23 @@
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.i {
+    height: 40px;
+}
+.submission {
+    background-color: none;
+    border-radius: 20px;
+    width: 50%;
+    margin: 0 auto;
+    font-family: 'Bungee Shade', cursive;
+    background-color:var(--primary);
+    color: #fff;
+    font-size: 25px;
+    border: 0px solid transparent;
+}
+.submission:hover {
+    box-shadow: 1px 1px 3px 2px #414141;
+    transition: box-shadow .2s ease-out 0s;
+}

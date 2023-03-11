@@ -1,9 +1,9 @@
-import "./style.css";
-import ProjectCard from "../project-card";
+import "./index.css";
+import ProjectCard from "../../components/project-card";
 import projectList from "./projects.json";
 
 function Projects() {
-  const phone_dev = require(`../Home/img/58982.jpg`);
+  const phone_dev = require(`../home/img/58982.jpg`);
   return (
     <div className="projects">
       <div className="about-projects">

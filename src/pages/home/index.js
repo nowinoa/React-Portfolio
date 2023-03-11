@@ -1,14 +1,29 @@
 import "./index.css";
 import React from "react";
+import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import ContactModal from "../modal";
+import Modal from "../../components/modal";
+import Tools from '../../components/tools';
 import { Link } from "react-router-dom";
+
 
 function HomePage() {
   const memoji = require("./img/63256.jpg");
   const memoji_desktop = require(`./img/58982.jpg`);
+  const memoji_explosion = require('./img/19576.jpg');
   const phone_dev = require(`./img/phone-developer.png`);
-  const body = <h3>Here the tools I always use!</h3>;
+  const body = < Tools />
+
+  const [actMemoji, setActMemoji] =  useState(memoji_desktop);
+
+  const toggleImage = () => {
+    if(actMemoji === memoji_explosion) setActMemoji(memoji_desktop)
+    else setActMemoji(memoji_explosion)
+    
+  }
+  
+  
+  
   return (
     <div className="home-page">
       <div className="box about">
@@ -26,13 +41,13 @@ function HomePage() {
         <h2 className="city">London</h2>
       </div>
       <div className="box home-projects">
-        <Link to="/React-Portfolio/projects" className="button">
+        <Link to="/projects" className="button">
           Projects
         </Link>
         <img src={phone_dev} alt="projects frontend development" />
       </div>
       <div className="box tools">
-        <ContactModal title="tools" body={body} />
+        <Modal title="tools" body={body} header='Tools'/>
       </div>
       <div className="box linkedin">
         <a
@@ -49,10 +64,10 @@ function HomePage() {
         </a>
       </div>
       <div className="box toggle">
-        <button className="toggle-btn">Toogle here!</button>
+        <button className="toggle-btn" onClick={toggleImage}>Toogle here!</button>
         <img
           id="toggle-img"
-          src={memoji_desktop}
+          src={actMemoji}
           alt="Memoji Ainhoa Frontend Developer"
         />
       </div>
@@ -62,7 +77,7 @@ function HomePage() {
           further, why wait? Let's connect today and explore any potential
           collaborations or opportunities together
         </p>
-        <Link to="/React-Portfolio/contact" className="button">
+        <Link to="/contact" className="button">
           Contact
         </Link>
       </div>

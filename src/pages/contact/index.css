@@ -4,6 +4,7 @@
     gap: 20px;
     padding: 30px 40px;
 }
+
 .contact-form {
     grid-column: 1 / span 2;
     display: flex;
@@ -11,6 +12,7 @@
     align-items: center;
     background-image: var(--background-waves);
 }
+
 .cv {
     height: 250px;
     grid-column: 3 / 4;
@@ -22,67 +24,102 @@
     position: relative;
     color: #000;
 }
+
 .cv img {
     width: 150px;
     height: 150px;
     border-radius: 20px;
     border-left: 10px solid #fff;
 }
+
 .btn-cv {
     cursor: pointer;
-   background: #fff;
-   position: absolute;
-   bottom: 10px;
-   left: 10px;
-   border: 1px solid transparent;
-   border-radius: 50px;
-   padding: 8px 15px;
-   font-size: 20px;
+    color: #444;
+    text-decoration: none;
+    background: #fff;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    border: 1px solid transparent;
+    border-radius: 50px;
+    padding: 8px 15px;
+    font-size: 20px;
 }
+.btn-cv:hover {
+    color: #444;
+    text-decoration: none;
+}
+
 .c-github {
     background-image: var(--background-waves2);
     grid-column: 1 / 2;
     height: 180px;
 }
+
 .email {
     grid-column: 3 / 4;
     background-image: var(--background-waves);
 }
+
 .c-linkedin {
     grid-column: 2 / 3;
     background-image: var(--background-waves3);
 }
+
 .c-linkedin .linkedin-icon {
     grid-column: 2 / 3;
-    background-image: var(--background-waves3);
 }
-.c-linkedin .linkedin-icon, .email .email-icon {
+
+.c-linkedin .linkedin-icon,
+.email .email-icon {
     padding: 7px;
     border-radius: 20px;
 }
+
 .email .email-icon {
-    color: var(--terciary);
     padding: 3px 10px;
+    color: #444 !important;
+    box-shadow: none !important;
 }
-.c-github, .c-linkedin, .email {
+
+.email {
+    box-shadow: none;
+    background-color: #fff;
+}
+.email button {
+    width: 146px;
+    height: 136.5px;
+    border-radius: 40px !important;
+    border-style: none;
+    padding: 10px;
+}
+
+.c-github,
+.c-linkedin,
+.email {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.c-github .github-icon:hover, .c-linkedin .linkedin-icon:hover, .email .email-icon:hover, .btn-cv:hover{
+
+.c-github,
+.c-linkedin,
+.email:hover,
+.btn-cv:hover,
+.email button:hover {
     box-shadow: 1px 1px 3px 2px #d6d6d6;
     transition: box-shadow .2s ease-out 0s;
 }
+
 .c-github .github-icon {
-    background-color: var(--terciary);
     color: #444;
     padding: 7px;
-    border-radius: 50%;
 }
+
 @media(max-width: 589px) {
     .contact {
         display: flex;
         flex-direction: column;
     }
-    
+
 }

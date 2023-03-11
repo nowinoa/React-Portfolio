@@ -1,0 +1,11 @@
+.tools-box {
+    width: 100%;
+    margin: auto 0;
+    color: #444;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+

@@ -7,7 +7,7 @@ function Navbar() {
       <ul className="navbar-nav me-auto mb-2 mb-lg-0 kllk">
       <li className="nav-item">
         <NavLink 
-          to="/React-Portfolio/"
+          to="/"
           end
           aria-current="page"
           className={({isActive}) => 

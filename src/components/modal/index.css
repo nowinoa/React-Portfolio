@@ -14,11 +14,21 @@
     justify-content: center;
     align-items: center;
 }
+
 .btn-flat:hover {
     color: var(--primary);
     background-color: #fff;
     box-shadow: 1px 1px 3px 2px #d6d6d6;
     transition: box-shadow .2s ease-out 0s;
+}
+
+.btn {
+    border-radius: 20px;
+}
+.btn:hover {
+    box-shadow: 1px 1px 3px 2px #414141;
+    transition: box-shadow .2s ease-out 0s;
+    border: 0px solid transparent !important;
 }
 .modal-content {
     height: 500px !important;
